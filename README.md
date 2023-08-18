@@ -5,8 +5,8 @@ Welcome to star🌟.
 
 ## catalogs
 
-- [basic knowledge](https://github.com/hdwan/algorithms/blob/main/basic%20knowledge/basic-knowledge.md)
-- [basic algorithms]([algorithms/基础算法 at main · hdwan/algorithms (github.com)](https://github.com/hdwan/algorithms/tree/main/基础算法))
+- [basic knowledge](https://github.com/hdwan/algorithms/blob/main/基础知识/basic-knowledge.md)
+- [basic algorithms](https://github.com/hdwan/algorithms/tree/main/基础算法)
 
 ![24](typora文档图片/24.jpg)
 

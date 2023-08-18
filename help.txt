@@ -25,5 +25,11 @@ git remote remove + 名字
 
 git remote -v
 
-提交所有变化
+提交所有变化到暂存区
 git add -A
+添加备注
+git commit -m "修改注释"
+推送代码
+第一次：git push -u 仓库名称（上面自己取的名字，如algorithm） 分支
+后续：git push 名称 分支
+git push origin master -f 强制推送

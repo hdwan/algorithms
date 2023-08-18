@@ -8,3 +8,7 @@ Welcome to star🌟.
 - basic knowledge
 
 ![24](typora文档图片/24.jpg)
+
+## Disclaimer
+
+If you have any questions, please feel free to contact us. Emails: [lxb2000m@gmail.com]

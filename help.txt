@@ -37,4 +37,10 @@ git push 仓库名 分支 -f 强制推送
 文件下拉
 git pull 仓库名
 
+删除分支
+git push 仓库名字 -d 分支名
+查看分支
+git branch -a
+
+
 

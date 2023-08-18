@@ -32,4 +32,9 @@ git commit -m "修改注释"
 推送代码
 第一次：git push -u 仓库名称（上面自己取的名字，如algorithm） 分支
 后续：git push 名称 分支
-git push origin master -f 强制推送
+git push 仓库名 分支 -f 强制推送
+
+文件下拉
+git pull 仓库名
+
+

@@ -5,7 +5,7 @@ Welcome to star🌟.
 
 ## catalogs
 
-- basic knowledge
+- [basic knowledge](https://github.com/hdwan/hdwan.github.io/blob/main/basic%20knowledge/basic-knowledge.md)
 
 ![24](typora文档图片/24.jpg)
 

@@ -1,0 +1,29 @@
+设置用户：
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+
+新建文件夹：
+ mkdir +文件夹名字
+新建文件：
+touch +文件名
+删除文件
+rm 文件名.文件类型
+删除文件夹：
+rm -r 文件夹删除文件夹（要回到上一级文件夹才可以删）
+
+初始化本地仓库
+ git init
+查看ssh key
+~/.ssh
+测试ssh
+ssh -T git@github.com
+连接远程仓库
+$ git remote add algorithm git@github.com:hdwan/hdwan.github.io.git
+algorithm是给仓库起的名字 后面是地址 ssh
+断开
+git remote remove + 名字
+
+git remote -v
+
+提交所有变化
+git add -A

@@ -66,7 +66,7 @@ auto function = [&](int i, int j)->int{ // 捕获列表  参数  返回值
 
 **Lambda表达式语法定义**
 
-![image-20230525150809334](file:///E:/algorithm/typora%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/image-20230525150809334.png?lastModify=1692351278)
+![image-20230525150809334](typora文档图片/image-20230525150809334.png)
 
 - **捕获列表**。在C++规范中也称为Lambda导入器， 捕获列表总是出现在Lambda函数的开始处。实际上，`[]`是Lambda引出符。编译器根据该引出符判断接下来的代码是否是Lambda函数，捕获列表能够捕捉上下文中的变量以供Lambda函数使用。
 

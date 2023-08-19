@@ -7,6 +7,7 @@ Welcome to star🌟.
 
 - [basic knowledge](https://github.com/hdwan/algorithms/blob/main/基础知识/basic-knowledge.md)
 - [basic algorithms](https://github.com/hdwan/algorithms/tree/main/基础算法)
+- [data structure](https://github.com/hdwan/algorithms/tree/main/数据结构)
 
 ![24](typora文档图片/24.jpg)
 

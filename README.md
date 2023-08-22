@@ -7,23 +7,28 @@ Welcome to star🌟.
 
 [基础知识](https://github.com/hdwan/algorithms/blob/main/基础知识/basic-knowledge.md)
 
-- [二分]()
-- [高精度计算]()
-- [离散化]()
-- [枚举、全排列]()
-- [排序]()
-- [前缀和、拆分]()
-- [区间合并]()
-- [双指针]()
-- [位运算]()
-
 [基础算法](https://github.com/hdwan/algorithms/tree/main/基础算法)
+
+- [二分](https://github.com/hdwan/algorithms/blob/main/基础算法/二分.md)
+- [高精度计算](https://github.com/hdwan/algorithms/blob/main/基础算法/高精度.md)
+- [离散化](https://github.com/hdwan/algorithms/blob/main/基础算法/离散化.md)
+- [枚举、全排列](https://github.com/hdwan/algorithms/blob/main/基础算法/枚举、全排列.md)
+- [排序](https://github.com/hdwan/algorithms/blob/main/基础算法/排序.md)
+- [前缀和、拆分](https://github.com/hdwan/algorithms/blob/main/基础算法/前缀和 与 差分.md)
+- [区间合并](https://github.com/hdwan/algorithms/blob/main/基础算法/区间合并.md)
+- [双指针](https://github.com/hdwan/algorithms/blob/main/基础算法/双指针.md)
+- [位运算](https://github.com/hdwan/algorithms/blob/main/基础算法/位运算.md)
 
 [数据结构](https://github.com/hdwan/algorithms/tree/main/数据结构)
 
-[数论]()
+- [STL](https://github.com/hdwan/algorithms/blob/main/数据结构/STL.md)
+- [单调栈](https://github.com/hdwan/algorithms/blob/main/数据结构/单调栈.md)
+- [单调队列](https://github.com/hdwan/algorithms/blob/main/数据结构/单调队列.md)
+- [链表](https://github.com/hdwan/algorithms/blob/main/数据结构/链表.md)
 
-[组合数]()
+[数论](https://github.com/hdwan/algorithms/tree/main/数论)
+
+[组合数](https://github.com/hdwan/algorithms/tree/main/组合数)
 
 ![24](typora文档图片/24.jpg)
 

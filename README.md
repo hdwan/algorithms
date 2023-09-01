@@ -49,4 +49,4 @@ Welcome to star🌟.
 
 ## Disclaimer
 
-If you have any questions, please feel free to contact us. Emails: [lxb2000m@gmail.com]
+Some resources come from the internet. If there is any infringement, please feel free to contact us. Emails: [lxb2000m@gmail.com]

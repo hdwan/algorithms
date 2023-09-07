@@ -31,19 +31,20 @@ Welcome to star🌟.
 
 [数论](https://github.com/hdwan/algorithms/tree/main/数论)
 
-- [基础知识](https://github.com/hdwan/algorithms/blob/main/数论/数论.md)
-- [分解质因数]()
-- [筛质数]()
-- [欧拉函数]()
-- [快速幂]()
-- [扩展欧几里得算法]()
-- [乘法逆元]()
-- [中国剩余定理]()
+- [基础知识](https://github.com/hdwan/algorithms/blob/main/数论/数论.md#数论)
+- [分解质因数](https://github.com/hdwan/algorithms/blob/main/数论/数论.md#2质数)
+- [筛质数](https://github.com/hdwan/algorithms/blob/main/数论/数论.md#2质数)
+- [欧拉函数](https://github.com/hdwan/algorithms/blob/main/数论/数论.md#欧拉函数)
+- [快速幂](https://github.com/hdwan/algorithms/blob/main/数论/数论.md#6快速幂)
+- [扩展欧几里得算法](https://github.com/hdwan/algorithms/blob/main/数论/数论.md#7扩展欧几里得)
+- [乘法逆元](https://github.com/hdwan/algorithms/blob/main/数论/数论.md#10乘法逆元)
+- [中国剩余定理](https://github.com/hdwan/algorithms/blob/main/数论/数论.md#11中国剩余定理)
+- [同余](https://github.com/hdwan/algorithms/blob/main/数论/数论.md#8同余)
 
 [组合数](https://github.com/hdwan/algorithms/tree/main/组合数)
 
-- [组合数]()
-- [卡特兰数]()
+- [组合数](https://github.com/hdwan/algorithms/blob/main/组合数/组合数.md)
+- [卡特兰数](https://github.com/hdwan/algorithms/blob/main/组合数/卡特兰数.md)
 
 ![24](typora文档图片/24.jpg)
 

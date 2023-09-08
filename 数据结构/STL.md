@@ -119,6 +119,16 @@ swap();  // 交换两个map
 unordered_map<int, int> hashmap;
 ```
 
+**判断哈希表中是否存在某元素**
+
+```c++
+hashmap.count(num); // 返回元素个数
+比如存储的是 hashmap[1]=0; 则 hashmap.count(1) = 1;
+用 hashmap[num] == 0 判断会出问题：某些中键值对中值为 0，导致误判
+```
+
+
+
 #### set /multiset
 
 ```c++

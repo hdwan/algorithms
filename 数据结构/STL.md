@@ -25,17 +25,16 @@
 6、begin()/end()  // 首尾迭代器
 7、[]  // 根据下标取值
 8、支持比较运算，按字典序 vector<int> a, b; (二者可直接比较 ，如a > b)   
-int id = lower_bound(nums.begin(), nums.end(), tmp) - nums.begin() //获得第一个大于等于tmp的元素下标
-int id = upper_bound(nums.begin(), nums.end(), tmp) - nums.begin() //获得第一个大于tmp的元素下标
-    对于数组 int id = upper_bound(a, a + n, tmp) - a
-    这个查找函数返回的是迭代器
-9、a.assign(nums.begin(), nums.end() + k);  // 截取nums的片段赋值给a
+9、a.assign(nums.begin(), nums.end() + k);  // 截取nums的片段赋值给a 
 vector<int> a(nums.begin(), nums.end());  // 创建a时直接截取片段进行赋值
 截取区间都是左闭右开
 10、复制
 copy(shuffled.begin(), shuffled.end(), nums.begin());
 copy(shuffled.begin(), shuffled.begin() + cnt, nums.begin());
-11、
+11、auto id = lower_bound(nums.begin(), nums.end(), tmp) //获得第一个大于等于tmp的元素的迭代器
+	auto = upper_bound(nums.begin(), nums.end(), tmp) //获得第一个大于tmp的元素迭代器
+获取下标的方法：upper_bound(nums.begin(), nums.end(), tmp) - nums.begin() //获得第一个大于mp的元素下标
+   底层实现是二分查找，所以数组必须有序
 ```
 
 #### string

@@ -46,8 +46,6 @@ Welcome to star🌟.
 - [组合数](https://github.com/hdwan/algorithms/blob/main/组合数/组合数.md)
 - [卡特兰数](https://github.com/hdwan/algorithms/blob/main/组合数/卡特兰数.md)
 
-![24](typora文档图片/24.jpg)
-
 ## Disclaimer
 
 Some resources come from the internet. If there is any infringement, please feel free to contact us. Emails: [lxb2000m@gmail.com]

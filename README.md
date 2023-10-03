@@ -19,7 +19,7 @@ Welcome to star🌟.
 - [排序](https://github.com/hdwan/algorithms/blob/main/基础算法/排序.md)
 - [前缀和、拆分](https://github.com/hdwan/algorithms/blob/main/基础算法/前缀和与差分.md)
 - [区间合并](https://github.com/hdwan/algorithms/blob/main/基础算法/区间合并.md)
-- [双指针](https://github.com/hdwan/algorithms/blob/main/基础算法/双指针.md)
+- [双指针、滑动窗口](https://github.com/hdwan/algorithms/blob/main/基础算法/双指针.md)
 - [位运算](https://github.com/hdwan/algorithms/blob/main/基础算法/位运算.md)
 
 [数据结构](https://github.com/hdwan/algorithms/tree/main/数据结构)

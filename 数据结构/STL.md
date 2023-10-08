@@ -1,5 +1,32 @@
 ### STL
 
+#### C++新特性
+
+新加入了 **emplace** 操作：
+
+新引入的三个成员 `emplace_front`、`emplace` 和 `emplace_back`,这些**操作构造而不是拷贝元素到容器中**，这些操作分别对应 `push_front`、`insert` 和 `push_back`，分别表示将元素放在容器头部、一个指定的位置和容器尾部。
+
+**emplace** 在操作的时候会**直接在容器的空间里面执行构造函数创建元素**。
+
+**传递给emplace函数的参数必须与元素类型的构造函数匹配**。
+
+样例：
+
+```c++
+vector<int> nums;
+nums.push_back(1);
+nums.emplace_back(1);
+
+vector<pair<int, int>> nums;
+nums.push_back({1, 1});
+nums.emplace_back(1, 1);
+因为emplace传参的时候需要与元素类型的构造函数匹配，pair类型的构造是：
+pair<T1, T2> p1(v1, v2); 
+所以传参数的时候需要直接传值，即 (v1, v2)，而不需要构造成pair。
+```
+
+
+
 #### vector
 
 创建：
@@ -110,9 +137,7 @@ size();  // map中元素的个数
 swap();  // 交换两个map
 ```
 
-#### hashmap
-
-**无序**
+#### unordered_map 无序
 
 ```c++
 unordered_map<int, int> hashmap;
@@ -128,27 +153,30 @@ hashmap.count(num); // 返回元素个数
 
 
 
-#### set /multiset
+#### set / multiset
 
 ```c++
 // 元素不重复
 #include <set> // 有序
 #include <unordered_set>  // 无序
 
-unordered_set<int> hashset;  
-set<int> a;
-multiset<int> a;
 
+set<int> a; 
+unordered_set<int> b; 
+multiset<int> c;
+unordered_multiset<int> d;
+set 元素不重复 multiset 元素可以重复
 s.max_size()  // 返回容器最大尺寸
-s.begin()  // set中第一个元素的引用 	指针
-s.end()    // set中最后一个元素后面的引用	指针
 s.size()	 // 返回set的个数
 s.empty()	 // 判断集合是否为空,为空返回true
 s.find(x)	 // 返回一个指向元素x的迭代器;如果x不存在,则返回的迭代器等于end （指针）
 s.upper_bound(x)	// 从x后面开始查找，返回一个大于x的迭代器（指针） 
 s.lower_bound(x)  // 从x处开始查找 返回一个迭代器指向大于等于x（指针）
 s.clear()	  // 清空集合元素
-    
+
+//迭代
+s.begin()  // set中第一个元素的引用 	指针
+s.end()    // set中最后一个元素后面的引用	指针    
 s.rbegin()  // 返回一个反向迭代器,指向末尾元素的后一个 一般用于降序输出set元素 因为set默认是升序的
 s.rend()	  // 返回一个迭代器,指向向量起始元素
         for (auto it = s.rbegin(); it != s.rend(); it ++)

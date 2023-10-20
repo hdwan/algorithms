@@ -15,8 +15,8 @@
 ### 2.常用api
 
 ```c++
-*max_element(num.begin(), num.end()); // 获取最大值   
-*min_element(num.begin(), num.end()) ;// 获取最小值
+*max_element(num.begin(), num.end()); // 获取最大值   返回迭代器
+*min_element(num.begin(), num.end()) ;// 获取最小值   返回迭代器
 sort(nums.begin(), nums.end()); // O(nlog(n))
 // 带条件的排序
 // 内联函数的形式

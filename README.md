@@ -48,7 +48,7 @@ Welcome to star🌟.
 
 [图论](https://github.com/hdwan/algorithms/tree/main/图论)
 
-- [树和图](https://github.com/hdwan/algorithms/tree/main/图论/数和图.md)
+- [树和图](https://github.com/hdwan/algorithms/tree/main/图论/树和图.md)
 
 - [二分图](https://github.com/hdwan/algorithms/tree/main/图论/二分图.md)
 

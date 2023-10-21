@@ -28,6 +28,8 @@ Welcome to star🌟.
 - [单调栈](https://github.com/hdwan/algorithms/blob/main/数据结构/单调栈.md)
 - [单调队列](https://github.com/hdwan/algorithms/blob/main/数据结构/单调队列.md)
 - [链表](https://github.com/hdwan/algorithms/blob/main/数据结构/链表.md)
+- [KMP](https://github.com/hdwan/algorithms/blob/main/数据结构/KMP.md)
+- [并查集](https://github.com/hdwan/algorithms/blob/main/数据结构/并查集.md)
 
 [数论](https://github.com/hdwan/algorithms/tree/main/数论)
 

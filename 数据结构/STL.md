@@ -151,7 +151,14 @@ hashmap.count(num); // 返回元素个数
 用 hashmap[num] == 0 判断会出问题：某些中键值对中值为 0，导致误判
 ```
 
+**遍历哈希表**
 
+```c++
+for (auto it: hashmap) {
+    cout << it.first << it.second;
+}
+// it 是 pair
+```
 
 #### set / multiset
 

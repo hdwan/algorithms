@@ -46,3 +46,14 @@ git branch -a
 git checkout 分支名
 git checkout -b  分支名 // 新分支创建的同时切换分支
 
+
+
+连接远程仓库：
+先初始化文件：git init
+连接远程仓库：git remote add 连接名 git@github.com:hdwan/algorithms.git
+查看连接状态：git remote -v
+克隆远程仓库：保证本地和远程同步：git clone 连接名 分支
+接着按照提交步骤走就行
+本地和远程分支不一样 调整分支：git checkout 分支名
+
+
